@@ -1,9 +1,0 @@
-README.md
-setup.py
-ds-suite/__init__.py
-ds-suite/__main__.py
-ds_suite.egg-info/PKG-INFO
-ds_suite.egg-info/SOURCES.txt
-ds_suite.egg-info/dependency_links.txt
-ds_suite.egg-info/requires.txt
-ds_suite.egg-info/top_level.txt

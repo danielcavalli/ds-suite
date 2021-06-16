@@ -7,6 +7,7 @@
 node_modules/
 dist/
 build/
+ds_suite.egg-info/
 
 # Compiled Java class files
 *.class
