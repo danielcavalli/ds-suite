@@ -6,6 +6,10 @@ from sklearn.model_selection import GridSearchCV
 import time
 import datetime
 
+name="ds-suite/ds-suite"
+__version__ = "1.0.3"
+
+
 def to_date(gamma):
     #print(gamma[gamma['created_at']==erro])
     g = pd.isnull(pd.to_datetime(gamma['created_at'], errors='coerce')).values
