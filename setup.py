@@ -1,16 +1,15 @@
 
 import setuptools
-from tools.req import parse_requirements
 
-install_reqs = parse_requirements('./requirements.txt')
-reqs = [str(ir) for ir in install_reqs]
+with open('./requirements.txt') as f:
+    reqs = [line.rstrip() for line in f]
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="ds-suite",
-    version="1.0.0",
+    version="1.0.1",
     author="Daniel Cavalli",
     author_email="daniel@cavalli.dev",
     description="A brute-force based way of fiding the best ratio for your data. Focused on Tree models.",
