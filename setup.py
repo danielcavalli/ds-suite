@@ -9,7 +9,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ds-suite",
-    version="1.0.3",
+    version="1.0.5",
     author="Daniel Cavalli",
     author_email="daniel@cavalli.dev",
     description="A brute-force based way of fiding the best ratio for your data. Focused on Tree models.",

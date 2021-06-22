@@ -1,0 +1,6 @@
+#!/bin/bash
+python setup.py sdist bdist_wheel
+python -m twine upload --repository pypi dist/*
+rm -rf dist
+rm -rf ds_suite.egg-info
+rm -rf build
